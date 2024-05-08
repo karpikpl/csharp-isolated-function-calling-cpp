@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLib", "MyLib\MyLib.csproj", "{A10BE24B-6F45-4CFB-B233-5F36F1170109}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncCpp", "FuncCpp\FuncCpp.csproj", "{8C3E8E99-57F4-4362-B347-9DC32FFFFDAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "consoleApp", "consoleApp\consoleApp.csproj", "{3D94810E-AFC3-4DA7-BF6F-845ABECE34A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A10BE24B-6F45-4CFB-B233-5F36F1170109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A10BE24B-6F45-4CFB-B233-5F36F1170109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A10BE24B-6F45-4CFB-B233-5F36F1170109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A10BE24B-6F45-4CFB-B233-5F36F1170109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C3E8E99-57F4-4362-B347-9DC32FFFFDAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C3E8E99-57F4-4362-B347-9DC32FFFFDAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C3E8E99-57F4-4362-B347-9DC32FFFFDAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C3E8E99-57F4-4362-B347-9DC32FFFFDAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D94810E-AFC3-4DA7-BF6F-845ABECE34A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D94810E-AFC3-4DA7-BF6F-845ABECE34A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D94810E-AFC3-4DA7-BF6F-845ABECE34A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D94810E-AFC3-4DA7-BF6F-845ABECE34A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

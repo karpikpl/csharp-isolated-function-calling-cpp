@@ -1,0 +1,1 @@
+GET http://localhost:7154/api/Add?num1=5&num2=6
