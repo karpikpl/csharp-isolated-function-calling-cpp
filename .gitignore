@@ -268,3 +268,6 @@ __blobstorage__/
 MathLib/MathLibrary.dll
 MathLib/MathLibrary.exp
 MathLib/MathLibrary.lib
+MathLib/MultiplyLibrary.dll
+MathLib/MultiplyLibrary.exp
+MathLib/MultiplyLibrary.lib

@@ -16,7 +16,7 @@ namespace FuncCpp
         }
 
         [Function("Add")]
-        public IActionResult Run([HttpTrigger(AuthorizationLevel.Function, "get")] HttpRequest req, int num1, int num2)
+        public IActionResult Run([HttpTrigger(AuthorizationLevel.Function, "get")] HttpRequest req, int a, int b)
         {
             _logger.LogInformation("C# HTTP trigger function processed a request.");
             try
@@ -24,8 +24,8 @@ namespace FuncCpp
                 _logger.LogInformation("Attempting to call into C++ code");
 
                 MathLibrary mathLibrary = new MathLibrary();
-                int sum = mathLibrary.CallAddNumbers(num1, num2);
-                return new OkObjectResult($"The sum of {num1} and {num2} is {sum}");
+                int sum = mathLibrary.CallAddNumbers(a, b);
+                return new OkObjectResult($"The sum of {a} and {b} is {sum}");
             }
             catch (Exception ex)
             {

@@ -1,1 +1,9 @@
-GET http://localhost:7154/api/Add?num1=5&num2=6
+
+## Add
+GET http://localhost:7154/api/Add?a=5&b=6
+
+### Path
+GET http://localhost:7154/api/Path
+
+### Multiply
+GET http://localhost:7154/api/Multiply?a=5&b=6
