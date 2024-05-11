@@ -13,6 +13,22 @@ public class MathLibrary
     [DllImport("kernel32.dll", SetLastError = true, CharSet = CharSet.Ansi)]
     private static extern IntPtr LoadLibrary(string dllToLoad);
 
+    [UnmanagedFunctionPointer(CallingConvention.Cdecl)]
+    public delegate void LogCallbackDelegate(IntPtr message);
+
+    [DllImport("MathLibrary.dll", CallingConvention = CallingConvention.Cdecl)]
+    public static extern void SetLogCallback(LogCallbackDelegate callback);
+
+
+    public MathLibrary()
+    {
+        SetLogCallback(messagePtr =>
+        {
+            var message = Marshal.PtrToStringAnsi(messagePtr);
+            Console.WriteLine(message);
+        });
+    }
+
     public int CallAddNumbers(int a, int b)
     {
         return AddNumbers(a, b);
